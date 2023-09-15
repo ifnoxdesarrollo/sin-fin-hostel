@@ -1,0 +1,116 @@
+.create-modal {
+    width: 20rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+}
+
+.layout__container__icon-r {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.layout__container__icon-r:hover {
+    cursor: pointer;
+}
+
+.plus-r {
+    color: white;
+    font-size: 32px;
+}
+
+.modal__container {
+    width: 20rem;
+    height: 28rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal__container__header {
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.modal__container__header__title {
+    color: white;
+}
+
+.modal__container__header__button-close {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.modal__container__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 12rem;
+}
+
+.modal__container__body__input-1 {
+
+}
+
+.modal__container__body__input-2 {
+    width: 12rem;
+}
+
+.modal__container__body__input-3{
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+
+.modal__container__body__input-3__category{
+    color: white;
+    font-size: 16px;
+}
+
+.plus-2 {
+    font-size: 20px;
+    color: white;
+}
+
+.plus-2:hover {
+    cursor: pointer;
+}
+
+.modal__container__body__input-1__title {
+    color: white;
+    font-size: 16px;
+}
+
+.modal__container__body__input-2__description {
+    color: white;
+    font-size: 16px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    color: white;
+}
+
+.modal__categories-area {
+
+}

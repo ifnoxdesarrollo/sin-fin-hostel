@@ -1,0 +1,45 @@
+.layout {
+    background-image: url("./img/taking-note.jpg");
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 619px;
+}
+
+.layout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 619px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.layout__container {
+    width: 100%;
+    height: 619px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+   
+}
+
+.layout__container__icon {
+    transition: transform 0.3s ease;
+}
+
+.layout__container__icon:hover {
+    transform: scale(1.5);
+}
+
+
+.plus {
+    font-size: 40px;
+    color: #ffff !important;
+    opacity: 1;
+    backdrop-filter: blur(0px);
+    cursor: pointer;
+}

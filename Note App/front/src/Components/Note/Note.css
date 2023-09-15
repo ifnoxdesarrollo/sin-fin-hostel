@@ -1,0 +1,164 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note {
+    width: 25rem;
+    height: 7rem;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.note__container {
+    width: 25rem;
+    height: 7rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.note__container__header {
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    justify-content: space-between;
+}
+
+.note__container__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 19rem;
+    height: 5rem;
+    margin: 0rem;
+}
+
+.note__container__footer {
+    display: flex;
+    width: 375px;
+    justify-content: flex-end;
+}
+
+
+.action-button {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 20px;
+    border: none;
+    margin: 0.3rem;
+    transition: 0.8s;
+}
+
+.note__container__header__close-button {
+    border: none;
+    width: 23px;
+    height: 23px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+
+.note__container__header__close-button:hover {
+    background-color: rgb(165, 163, 163);
+}
+
+.edit {
+    background-color: rgb(226, 196, 61);
+    margin-right: 0.5rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.archive {
+    background-color: rgb(79, 138, 79);
+    margin-right: 0.5rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.delete {
+    background-color: rgb(212, 98, 98);
+    margin-right: 0.5rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.drop {
+    margin: 0.5rem;
+}
+
+.edit:hover {
+    background-color: rgb(172, 146, 32);
+}
+
+.archive:hover {
+    background-color: rgb(56, 122, 56);
+}
+
+.delete:hover {
+    background-color: rgb(185, 71, 71);
+}
+
+.note__container__body__title {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.note__container__body__text {
+    color: aliceblue;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.edit-modal {
+    width: 22rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 7;
+}
+
+.archived {
+    display: none;
+}
+
+.note__container__body__cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 19rem;
+    height: 5rem;
+    padding: 1rem 0rem;
+}
+
+.modal__container__header__button-close {
+    color: white !important;
+}
+
+.modal__container__body {
+    width: 17rem !important;
+    height: 16rem !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
