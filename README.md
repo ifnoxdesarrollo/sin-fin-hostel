@@ -1,8 +1,7 @@
 # Sin Fin Hostel Website
 
-![Sinfin Hostel Logo](https://sinfinhostel.netlify.app/images/logo.png)
+![Sinfin Hostel_movil](https://github.com/ifnoxdesarrollo/sin-fin-hostel/blob/master/sinfin-movil.png)
 
-![demo-sinfin](https://github.com/ifnoxdesarrollo/sin-fin-hostel/blob/master/sinfin%20gif.mp4)
 
 Este repositorio contiene el código fuente del sitio web de Sin Fin Hostel, una plataforma en línea que ofrece información y servicios relacionados con la acogedora casa de huéspedes ubicada en Ciudad de Mendoza, Argentina.
 
