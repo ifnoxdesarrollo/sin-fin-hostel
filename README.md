@@ -28,7 +28,7 @@ Puedes visitar el sitio en [https://sinfinhostel.netlify.app/](https://sinfinhos
 
 ## Autor
 
-- [If Nox](https://github.com/ifnoxdesarrollo) - [Sitio Web Personal](https://ifnox.com.ar)
+- [If Nox - Github](https://github.com/ifnoxdesarrollo) - [Sitio Web Personal](https://ifnox.com.ar)
 
 
 ¡Gracias por visitar el repositorio de Sinfin Hostel!
