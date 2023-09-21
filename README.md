@@ -7,7 +7,7 @@ Este repositorio contiene el código fuente del sitio web de Sin Fin Hostel, una
 
 ## Descripción
 
-El sitio web se ha desarrollado para brindar a sus visitantes una visión completa de las instalaciones, servicios y experiencias ofrece Sin Fin Hostel. 
+El sitio web se ha desarrollado para brindar a sus visitantes una visión completa de las instalaciones, servicios y experiencias que ofrece Sin Fin Hostel. 
 Puedes visitar el sitio en [https://sinfinhostel.netlify.app/](https://sinfinhostel.netlify.app/).
 
 ## Características Principales
